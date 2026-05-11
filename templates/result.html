@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Results</title>
+
+    <style>
+
+        body{
+            background:#111;
+            color:white;
+            font-family:Arial;
+            padding:20px;
+        }
+
+        .box{
+            border:1px solid #555;
+            padding:20px;
+            margin-bottom:20px;
+            border-radius:10px;
+            background:#1d1d1d;
+        }
+
+        pre{
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<h1>Scan Results : {{ target }}</h1>
+
+{% for tool, result in outputs.items() %}
+
+<div class="box">
+
+    <h2>{{ tool.upper() }}</h2>
+
+    <pre>{{ result }}</pre>
+
+</div>
+
+{% endfor %}
+
+</body>
+</html>
