@@ -1,5 +1,5 @@
 ============================================================
-8_NSLOOKUP
+9_NSLOOKUP
 COMMAND : nslookup demoapps.qspiders.com
 ============================================================
 Non-authoritative answer:

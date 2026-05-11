@@ -1,5 +1,5 @@
 ============================================================
-11_NMAP
-COMMAND : nmap demoapps.qspiders.com
+12_WHATWEB
+COMMAND : whatweb demoapps.qspiders.com
 ============================================================
-[SIMULATED] nmap running
+[SIMULATED] whatweb running

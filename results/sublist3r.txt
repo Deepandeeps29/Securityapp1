@@ -1,5 +1,5 @@
 ============================================================
-11_NMAP
-COMMAND : nmap demoapps.qspiders.com
+17_SUBLIST3R
+COMMAND : sublist3r -d demoapps.qspiders.com
 ============================================================
-[SIMULATED] nmap running
+[SIMULATED] sublist3r running

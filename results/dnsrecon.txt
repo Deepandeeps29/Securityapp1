@@ -1,5 +1,5 @@
 ============================================================
-11_NMAP
-COMMAND : nmap demoapps.qspiders.com
+21_DNSRECON
+COMMAND : dnsrecon -d demoapps.qspiders.com
 ============================================================
-[SIMULATED] nmap running
+[SIMULATED] dnsrecon running

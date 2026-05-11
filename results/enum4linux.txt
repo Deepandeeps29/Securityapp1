@@ -1,5 +1,5 @@
 ============================================================
-11_NMAP
-COMMAND : nmap demoapps.qspiders.com
+22_ENUM4LINUX
+COMMAND : enum4linux demoapps.qspiders.com
 ============================================================
-[SIMULATED] nmap running
+[SIMULATED] enum4linux running

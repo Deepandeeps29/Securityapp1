@@ -1,0 +1,17 @@
+============================================================
+14_BANNER
+COMMAND : curl -I http://demoapps.qspiders.com
+============================================================
+% Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+Dload  Upload  Total   Spent   Left   Speed
+0      0   0      0   0      0      0      0                              0
+0    162   0      0   0      0      0      0                              0
+0    162   0      0   0      0      0      0                              0
+0    162   0      0   0      0      0      0                              0
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Mon, 11 May 2026 13:22:53 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://demoapps.qspiders.com/

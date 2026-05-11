@@ -1,5 +1,5 @@
 ============================================================
-10_WIRESHARK
+26_WIRESHARK
 COMMAND : wireshark --version
 ============================================================
 [SIMULATED] wireshark running

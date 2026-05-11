@@ -1,5 +1,5 @@
 ============================================================
-11_NMAP
-COMMAND : nmap demoapps.qspiders.com
+16_WPSCAN
+COMMAND : wpscan --url demoapps.qspiders.com
 ============================================================
-[SIMULATED] nmap running
+[SIMULATED] wpscan running

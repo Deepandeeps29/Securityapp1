@@ -1,5 +1,5 @@
 ============================================================
-11_NMAP
-COMMAND : nmap demoapps.qspiders.com
+10_DIG
+COMMAND : dig demoapps.qspiders.com
 ============================================================
-[SIMULATED] nmap running
+[SIMULATED] dig running

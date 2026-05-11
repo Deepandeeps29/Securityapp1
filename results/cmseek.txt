@@ -1,5 +1,5 @@
 ============================================================
-11_NMAP
-COMMAND : nmap demoapps.qspiders.com
+15_CMSEEK
+COMMAND : cmseek -u demoapps.qspiders.com
 ============================================================
-[SIMULATED] nmap running
+[SIMULATED] cmseek running
