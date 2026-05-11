@@ -1,0 +1,56 @@
+[STEP 1] Checking perl...
+[STEP 2] perl not found
+[STEP 3] Installing...
+winget install StrawberryPerl.StrawberryPerl -e --silent --accept-source-agreements --accept-package-agreements
+
+
+   - 
+                                                                                                                        
+
+   - 
+   \ 
+   | 
+                                                                                                                        
+Found Strawberry Perl [StrawberryPerl.StrawberryPerl] Version 5.42.2.1
+This application is licensed to you by its owner.
+Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
+Successfully verified installer hash
+Starting package install...
+
+   - 
+   \ 
+   | 
+   / 
+   - 
+   \ 
+   | 
+   / 
+   - 
+   \ 
+   | 
+   / 
+   - 
+   \ 
+   | 
+   / 
+   - 
+   \ 
+   | 
+   / 
+   - 
+   \ 
+   | 
+   / 
+   - 
+                                                                                                                        
+You cancelled the installation.
+Installer failed with exit code: 1602
+Installer log is available at: C:\Users\Deepan Vinayagam\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\LocalState\DiagOutputDir\StrawberryPerl.StrawberryPerl.5.42.2.1-26-05-11-17-49-33.log
+
+[STEP 4] Installation completed
+
+[RUNNING]
+perl -v
+
+'perl' is not recognized as an internal or external command,
+operable program or batch file.

@@ -1,0 +1,29 @@
+============================================================
+1_IP_CONFIG
+COMMAND : ipconfig
+============================================================
+Windows IP Configuration
+Ethernet adapter Ethernet:
+Media State . . . . . . . . . . . : Media disconnected
+Connection-specific DNS Suffix  . :
+Ethernet adapter Ethernet 2:
+Connection-specific DNS Suffix  . :
+Link-local IPv6 Address . . . . . : fe80::7b98:677d:cdf1:8769%10
+IPv4 Address. . . . . . . . . . . : 192.168.56.1
+Subnet Mask . . . . . . . . . . . : 255.255.255.0
+Default Gateway . . . . . . . . . :
+Wireless LAN adapter Local Area Connection* 1:
+Media State . . . . . . . . . . . : Media disconnected
+Connection-specific DNS Suffix  . :
+Wireless LAN adapter Local Area Connection* 2:
+Media State . . . . . . . . . . . : Media disconnected
+Connection-specific DNS Suffix  . :
+Wireless LAN adapter Wi-Fi:
+Connection-specific DNS Suffix  . :
+Link-local IPv6 Address . . . . . : fe80::381e:1432:9333:cefd%8
+IPv4 Address. . . . . . . . . . . : 192.168.11.227
+Subnet Mask . . . . . . . . . . . : 255.255.254.0
+Default Gateway . . . . . . . . . : 192.168.10.1
+Ethernet adapter Bluetooth Network Connection:
+Media State . . . . . . . . . . . : Media disconnected
+Connection-specific DNS Suffix  . :

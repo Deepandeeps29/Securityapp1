@@ -1,0 +1,9 @@
+============================================================
+8_NSLOOKUP
+COMMAND : nslookup demoapps.qspiders.com
+============================================================
+Non-authoritative answer:
+Server:  dns.google
+Address:  8.8.8.8
+Name:    demoapps.qspiders.com
+Address:  85.195.76.6

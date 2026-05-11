@@ -1,0 +1,13 @@
+============================================================
+5_PING
+COMMAND : ping demoapps.qspiders.com
+============================================================
+Pinging demoapps.qspiders.com [85.195.76.6] with 32 bytes of data:
+Reply from 85.195.76.6: bytes=32 time=250ms TTL=41
+Reply from 85.195.76.6: bytes=32 time=165ms TTL=41
+Reply from 85.195.76.6: bytes=32 time=156ms TTL=41
+Reply from 85.195.76.6: bytes=32 time=207ms TTL=41
+Ping statistics for 85.195.76.6:
+Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+Minimum = 156ms, Maximum = 250ms, Average = 194ms

@@ -1,0 +1,22 @@
+[STEP 1] Checking ruby...
+[STEP 2] ruby not found
+[STEP 3] Installing...
+winget install RubyInstallerTeam.RubyWithDevKit -e --silent --accept-source-agreements --accept-package-agreements
+
+
+   - 
+                                                                                                                        
+
+   - 
+   \ 
+   | 
+                                                                                                                        
+No package found matching input criteria.
+
+[STEP 4] Installation completed
+
+[RUNNING]
+ruby -v
+
+'ruby' is not recognized as an internal or external command,
+operable program or batch file.

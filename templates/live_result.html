@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Live Scan</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            background:#0c0c0c;
+            color:#00ff00;
+            font-family:Consolas;
+            padding:25px;
+        }
+
+        .header{
+
+            color:white;
+
+            font-size:30px;
+
+            margin-bottom:30px;
+        }
+
+        #results{
+
+            display:flex;
+
+            flex-direction:column;
+
+            gap:25px;
+        }
+
+        .tool-card{
+
+            background:#111;
+
+            border:1px solid #333;
+
+            border-radius:15px;
+
+            overflow:hidden;
+
+            box-shadow:
+            0 0 15px rgba(
+                0,255,0,0.08
+            );
+        }
+
+        .tool-topbar{
+
+            background:#1e1e1e;
+
+            height:45px;
+
+            display:flex;
+
+            align-items:center;
+
+            padding-left:15px;
+        }
+
+        .dot{
+
+            width:12px;
+            height:12px;
+
+            border-radius:50%;
+
+            margin-right:8px;
+        }
+
+        .red{
+            background:#ff5f56;
+        }
+
+        .yellow{
+            background:#ffbd2e;
+        }
+
+        .green{
+            background:#27c93f;
+        }
+
+        .tool-title{
+
+            color:white;
+
+            margin-left:15px;
+
+            font-size:15px;
+
+            font-weight:bold;
+        }
+
+        .tool-output{
+
+            padding:20px;
+
+            white-space:pre-wrap;
+
+            line-height:1.6;
+
+            min-height:100px;
+        }
+
+        .cursor{
+
+            display:inline-block;
+
+            width:10px;
+
+            height:18px;
+
+            background:#00ff00;
+
+            animation:
+            blink 1s infinite;
+        }
+
+        @keyframes blink{
+
+            0%{
+                opacity:1;
+            }
+
+            50%{
+                opacity:0;
+            }
+
+            100%{
+                opacity:1;
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<h1 class="header">
+
+    Security Scan :
+    {{target}}
+
+</h1>
+
+<div id="results"></div>
+
+<script>
+
+let results =
+document.getElementById(
+    "results"
+);
+
+let currentOutput = null;
+
+
+function createToolCard(
+    title
+){
+
+    let card =
+    document.createElement(
+        "div"
+    );
+
+    card.className =
+        "tool-card";
+
+    card.innerHTML = `
+
+        <div class="tool-topbar">
+
+            <div class="dot red"></div>
+            <div class="dot yellow"></div>
+            <div class="dot green"></div>
+
+            <div class="tool-title">
+                ${title}
+            </div>
+
+        </div>
+
+        <div class="tool-output">
+
+            <span class="cursor"></span>
+
+        </div>
+
+    `;
+
+    results.appendChild(
+        card
+    );
+
+    return card.querySelector(
+        ".tool-output"
+    );
+}
+
+
+let source =
+new EventSource(
+    "/stream"
+);
+
+
+source.onmessage =
+function(event){
+
+    let line =
+    event.data;
+
+    // New tool detected
+    if(
+        line.includes("_")
+        &&
+        line.charAt(0) >= "0"
+        &&
+        line.charAt(0) <= "9"
+    ){
+
+        currentOutput =
+        createToolCard(
+            line
+        );
+
+        return;
+    }
+
+    if(!currentOutput){
+        return;
+    }
+
+    let cursor =
+    currentOutput.querySelector(
+        ".cursor"
+    );
+
+    if(cursor){
+        cursor.remove();
+    }
+
+    currentOutput.innerHTML +=
+        line + "\n";
+
+    currentOutput.innerHTML +=
+        `<span class="cursor"></span>`;
+
+    window.scrollTo(
+        0,
+        document.body.scrollHeight
+    );
+};
+
+</script>
+
+</body>
+</html>

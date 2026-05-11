@@ -1,0 +1,197 @@
+============================================================
+3_DNS
+COMMAND : ipconfig /displaydns
+============================================================
+Windows IP Configuration
+1.48.27.172.in-addr.arpa.
+----------------------------------------
+Record Name . . . . . : 1.48.27.172.in-addr.arpa.
+Record Type . . . . . : 12
+Time To Live  . . . . : 576671
+Data Length . . . . . : 8
+Section . . . . . . . : Answer
+PTR Record  . . . . . : DeepanVinayagam-Testing.mshome.net
+kubernetes.docker.internal
+----------------------------------------
+No records of type AAAA
+Record Name . . . . . : kubernetes.docker.internal
+Record Type . . . . . : 1
+Time To Live  . . . . : 576671
+Data Length . . . . . : 4
+Section . . . . . . . : Answer
+A (Host) Record . . . : 127.0.0.1
+DeepanVinayagam-Testing.mshome.net
+----------------------------------------
+No records of type AAAA
+Record Name . . . . . : DeepanVinayagam-Testing.mshome.net
+Record Type . . . . . : 1
+Time To Live  . . . . : 576671
+Data Length . . . . . : 4
+Section . . . . . . . : Answer
+A (Host) Record . . . : 172.27.48.1
+raw.githubusercontent.com
+----------------------------------------
+Record Name . . . . . : raw.githubusercontent.com
+Record Type . . . . . : 1
+Time To Live  . . . . : 953
+Data Length . . . . . : 4
+Section . . . . . . . : Answer
+A (Host) Record . . . : 185.199.109.133
+199.154.231.80.in-addr.arpa
+----------------------------------------
+Record Name . . . . . : 199.154.231.80.in-addr.arpa
+Record Type . . . . . : 12
+Time To Live  . . . . : 6571
+Data Length . . . . . : 8
+Section . . . . . . . : Answer
+PTR Record  . . . . . : if-bundle-22-2.qcore1.pvu-paris.as6453.net
+13.245.231.80.in-addr.arpa
+----------------------------------------
+Record Name . . . . . : 13.245.231.80.in-addr.arpa
+Record Type . . . . . : 12
+Time To Live  . . . . : 10724
+Data Length . . . . . : 8
+Section . . . . . . . : Answer
+PTR Record  . . . . . : if-bundle-12-2.qcore2.pvu-paris.as6453.net
+host.docker.internal
+----------------------------------------
+No records of type AAAA
+Record Name . . . . . : host.docker.internal
+Record Type . . . . . : 1
+Time To Live  . . . . : 576671
+Data Length . . . . . : 4
+Section . . . . . . . : Answer
+A (Host) Record . . . : 192.168.11.227
+5.38.87.180.in-addr.arpa
+----------------------------------------
+Record Name . . . . . : 5.38.87.180.in-addr.arpa
+Record Type . . . . . : 12
+Time To Live  . . . . : 7866
+Data Length . . . . . : 8
+Section . . . . . . . : Answer
+PTR Record  . . . . . : ix-ae-0-100.tcore1.mlv-mumbai.as6453.net
+1.0.0.127.in-addr.arpa.
+----------------------------------------
+Record Name . . . . . : 1.0.0.127.in-addr.arpa.
+Record Type . . . . . : 12
+Time To Live  . . . . : 576671
+Data Length . . . . . : 8
+Section . . . . . . . : Answer
+PTR Record  . . . . . : kubernetes.docker.internal
+1.25.83.202.in-addr.arpa
+----------------------------------------
+Record Name . . . . . : 1.25.83.202.in-addr.arpa
+Record Type . . . . . : 12
+Time To Live  . . . . : 7042
+Data Length . . . . . : 8
+Section . . . . . . . : Answer
+PTR Record  . . . . . : 202.83.25.1.actcorp.in
+193.13.6.216.in-addr.arpa
+----------------------------------------
+Record Name . . . . . : 193.13.6.216.in-addr.arpa
+Record Type . . . . . : 12
+Time To Live  . . . . : 18258
+Data Length . . . . . : 8
+Section . . . . . . . : Answer
+PTR Record  . . . . . : if-bundle-26-2.qcore1.emrs2-marseille.as6453.net
+gateway.docker.internal
+----------------------------------------
+No records of type AAAA
+Record Name . . . . . : gateway.docker.internal
+Record Type . . . . . : 1
+Time To Live  . . . . : 576671
+Data Length . . . . . : 4
+Section . . . . . . . : Answer
+A (Host) Record . . . : 192.168.11.227
+29.38.87.180.in-addr.arpa
+----------------------------------------
+Record Name . . . . . : 29.38.87.180.in-addr.arpa
+Record Type . . . . . : 12
+Time To Live  . . . . : 6615
+Data Length . . . . . : 8
+Section . . . . . . . : Answer
+PTR Record  . . . . . : if-be-13-2.ecore1.mlv-mumbai.as6453.net
+41.245.231.80.in-addr.arpa
+----------------------------------------
+Record Name . . . . . : 41.245.231.80.in-addr.arpa
+Record Type . . . . . : 12
+Time To Live  . . . . : 9898
+Data Length . . . . . : 8
+Section . . . . . . . : Answer
+PTR Record  . . . . . : if-bundle-56-2.qcore1.fr0-frankfurt.as6453.net
+google.com
+----------------------------------------
+Record Name . . . . . : google.com
+Record Type . . . . . : 1
+Time To Live  . . . . : 203
+Data Length . . . . . : 4
+Section . . . . . . . : Answer
+A (Host) Record . . . : 142.251.221.206
+227.11.168.192.in-addr.arpa.
+----------------------------------------
+Record Name . . . . . : 227.11.168.192.in-addr.arpa.
+Record Type . . . . . : 12
+Time To Live  . . . . : 576671
+Data Length . . . . . : 8
+Section . . . . . . . : Answer
+PTR Record  . . . . . : host.docker.internal
+Record Name . . . . . : 227.11.168.192.in-addr.arpa.
+Record Type . . . . . : 12
+Time To Live  . . . . : 576671
+Data Length . . . . . : 8
+Section . . . . . . . : Answer
+PTR Record  . . . . . : gateway.docker.internal
+32.154.231.80.in-addr.arpa
+----------------------------------------
+Record Name . . . . . : 32.154.231.80.in-addr.arpa
+Record Type . . . . . : 12
+Time To Live  . . . . : 12930
+Data Length . . . . . : 8
+Section . . . . . . . : Answer
+PTR Record  . . . . . : if-bundle-15-2.qcore1.pye-paris.as6453.net
+mobile.events.data.microsoft.com
+----------------------------------------
+Record Name . . . . . : mobile.events.data.microsoft.com
+Record Type . . . . . : 5
+Time To Live  . . . . : 1
+Data Length . . . . . : 8
+Section . . . . . . . : Answer
+CNAME Record  . . . . : mobile.events.data.trafficmanager.net
+Record Name . . . . . : mobile.events.data.trafficmanager.net
+Record Type . . . . . : 5
+Time To Live  . . . . : 1
+Data Length . . . . . : 8
+Section . . . . . . . : Answer
+CNAME Record  . . . . : onedscolprdwus06.westus.cloudapp.azure.com
+Record Name . . . . . : onedscolprdwus06.westus.cloudapp.azure.com
+Record Type . . . . . : 1
+Time To Live  . . . . : 1
+Data Length . . . . . : 4
+Section . . . . . . . : Answer
+A (Host) Record . . . : 20.189.173.7
+login.microsoftonline.com
+----------------------------------------
+Record Name . . . . . : login.microsoftonline.com
+Record Type . . . . . : 5
+Time To Live  . . . . : 81
+Data Length . . . . . : 8
+Section . . . . . . . : Answer
+CNAME Record  . . . . : login.mso.msidentity.com
+Record Name . . . . . : login.mso.msidentity.com
+Record Type . . . . . : 5
+Time To Live  . . . . : 81
+Data Length . . . . . : 8
+Section . . . . . . . : Answer
+CNAME Record  . . . . : ak.privatelink.msidentity.com
+Record Name . . . . . : ak.privatelink.msidentity.com
+Record Type . . . . . : 5
+Time To Live  . . . . : 81
+Data Length . . . . . : 8
+Section . . . . . . . : Answer
+CNAME Record  . . . . : www.tm.a.prd.aadg.trafficmanager.net
+Record Name . . . . . : www.tm.a.prd.aadg.trafficmanager.net
+Record Type . . . . . : 1
+Time To Live  . . . . : 81
+Data Length . . . . . : 4
+Section . . . . . . . : Answer
+A (Host) Record . . . : 20.190.145.160
